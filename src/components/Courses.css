@@ -1,0 +1,93 @@
+/* ===== Container Styling ===== */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ===== Header Card ===== */
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.12);
+}
+
+/* ===== Page Title ===== */
+.h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #222;
+}
+
+.small {
+  font-size: 15px;
+  color: #666;
+}
+
+/* ===== Grid Layout ===== */
+.grid {
+  display: grid;
+  gap: 22px;
+}
+
+.cols-3 {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+/* ===== Course Card Styling ===== */
+.grid .card {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.4);
+  padding: 26px;
+  border-radius: 18px;
+}
+
+/* ===== Course Title ===== */
+.card h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* ===== Course Summary ===== */
+.card .small {
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+/* ===== Button Styling ===== */
+.link-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4b3bf8;
+  color: white;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.link-btn:hover {
+  background: #3a2bd8;
+  transform: translateY(-2px);
+}
+
+/* ===== Smooth Background ===== */
+body {
+  background: linear-gradient(135deg, #eef1ff, #f8faff);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+}

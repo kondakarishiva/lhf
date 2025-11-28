@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  border: 5px solid #007bff;
+}
+
+.certificate {
+  padding: 50px;
+  border-style: double;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5afff457b98a78dfe64c781a/3956c2e6-510d-4dd3-a204-38e624ffcf67/certification-Sustainability-Leadership-for-Hotel-%26-Tourism-Professionals-biofilico.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 8px 0;
+  color: #222;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: bold;
+  color: #004085;
+}
+
+.course-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin: 4px 0;
+}
+
+.small {
+  font-size: 14px;
+  color: #777;
+}
+
+.cert-code {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.signature-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  padding: 0 40px;
+}
+
+.signature-section div {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

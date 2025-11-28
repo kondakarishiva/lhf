@@ -1,0 +1,21 @@
+.dashboard {
+  padding: 40px;
+}
+
+.dashboard h2 {
+  margin-bottom: 15px;
+  color: #4f46e5;
+}
+
+.dashboard-section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.dashboard-section h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
